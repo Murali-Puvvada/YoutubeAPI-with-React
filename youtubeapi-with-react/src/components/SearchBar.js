@@ -5,6 +5,9 @@ class SearchBar extends React.Component{
   state={term:""}
   handleSubmit=(event)=>{
     event.preventDefault()
+    //To send the data from SearchBar to App
+    this.props.onFormSubmit(this.state.term)
+
   }
 
   handleChange=(event)=>{
