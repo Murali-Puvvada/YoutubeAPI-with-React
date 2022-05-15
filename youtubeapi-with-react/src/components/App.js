@@ -36,10 +36,6 @@ class App extends React.Component {
                <VideoList onVideoSelect={this.onVideoSelect} videos={this.state.videos}/>
              </div>
            </div>
-
-
-
-
          </div>
        </div>
      </div>
